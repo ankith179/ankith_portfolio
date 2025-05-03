@@ -41,7 +41,7 @@ const Navbar = ({ theme }) => {
             theme === "dark" ? "text-textPrimary" : "text-lighttextPrimary"
           }`}
         >
-          Vashi
+          Ankith Singh
         </Link>
 
         {/* Mobile Icon */}
@@ -76,7 +76,7 @@ const Navbar = ({ theme }) => {
         {/* Desktop Buttons */}
         <div className="hidden md:flex gap-4 items-center">
           <a
-            href="https://github.com/VashistaRk"
+            href="https://github.com/ankith179"
             target="_blank"
             rel="noopener noreferrer"
             className="border-2 border-primary text-primary px-4 py-1.5 rounded-full font-medium transition hover:bg-primary hover:text-textPrimary"
@@ -84,7 +84,7 @@ const Navbar = ({ theme }) => {
             GitHub
           </a>
           <a
-            href="https://www.linkedin.com/in/vashista-rama-krishna/"
+            href="https://www.linkedin.com/in/ankith-singh17/"
             target="_blank"
             rel="noopener noreferrer"
             className="border-2 border-primary text-primary px-4 py-1.5 rounded-full font-medium transition hover:bg-primary hover:text-textPrimary"
@@ -112,7 +112,7 @@ const Navbar = ({ theme }) => {
             ))}
             <div className="flex flex-col gap-3 mt-4">
               <a
-                href="https://github.com/VashistaRk"
+                href="https://github.com/ankith179"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-2 border-primary text-primary px-4 py-2 rounded-full text-center font-medium transition hover:bg-primary hover:text-textPrimary"
@@ -120,7 +120,7 @@ const Navbar = ({ theme }) => {
                 GitHub
               </a>
               <a
-                href="https://www.linkedin.com/in/vashista-rama-krishna/"
+                href="https://www.linkedin.com/in/ankith-singh17/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-2 border-primary text-primary px-4 py-2 rounded-full text-center font-medium transition hover:bg-primary hover:text-textPrimary"

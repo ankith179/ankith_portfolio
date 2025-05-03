@@ -27,7 +27,7 @@ const Hero = ({ theme }) => {
             >
               Hi, I am
             </p>
-            Vashista Rama Krishna Rangoju
+            Ankith Singh
           </h1>
 
           <div
@@ -39,7 +39,7 @@ const Hero = ({ theme }) => {
             <span className="text-primary">
               <Typewriter
                 options={{
-                  strings: ["Full Stack Developer", "Programmer"],
+                  strings: ["Full Stack Developer", "Programmer", "Machine learning enthusiast"],
                   autoStart: true,
                   loop: true,
                 }}
@@ -66,7 +66,7 @@ const Hero = ({ theme }) => {
         <div className="sm:mb-8 order-2 flex-1 flex justify-center items-center mt-8 sm:mt-0">
           <img
             src={`${import.meta.env.BASE_URL}/pvg.jpg`}
-            alt="Vashista"
+            alt="Ankith"
             className="w-40 sm:w-64 h-40 sm:h-64 rounded-full border-2 border-primary object-cover ml-0 lg:ml-40"
           />
         </div>

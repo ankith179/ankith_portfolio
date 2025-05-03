@@ -52,6 +52,18 @@ export const skills = [
         name: "Node Js",
         image: "nodejs-logo.svg",
       },
+      {
+        name: "FastAPI",
+        image: "fastapi-logo.jpeg",
+      },
+      {
+        name: "REST API",
+        image: "rest-logo.jpg",
+      },
+      {
+        name: "Flask",
+        image: "flask-logo.jpeg",
+      },
     ],
   },
   {
@@ -69,6 +81,10 @@ export const skills = [
       {
         name: "VS Code",
         image: "vscode-logo.png",
+      },
+      {
+        name: "Docker",
+        image: "docker-logo.jpeg",
       },
     ],
   },

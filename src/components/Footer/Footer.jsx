@@ -6,20 +6,17 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 
 function Footer({ theme }) {
   return (
-    //darkbg
     <div
-      className={`w-full py-8 flex justify-center shadow-t-lg  bg-gradient-to-b ${
+      className={`w-full py-8 flex justify-center shadow-t-lg bg-gradient-to-b ${
         theme === "dark"
           ? "from-[rgba(0,0,0,0.9)] to-[rgba(0,0,0,0.9)] text-textPrimary"
           : "from-lightdarkCardBackground to-lightdarkCardBackground text-lighttextPrimary"
-      } `}
+      }`}
     >
-      <footer
-        className={`w-full max-w-[1200px] flex flex-col gap-4 items-center p-4 `}
-      >
+      <footer className="w-full max-w-[1200px] flex flex-col gap-4 items-center p-4">
         {/* Logo */}
         <h1 className="font-semibold text-[20px] text-primaryDark">
-          Vashista Rama Krishna Rangoju
+          Ankith Singh
         </h1>
 
         {/* Navigation Links */}
@@ -53,26 +50,26 @@ function Footer({ theme }) {
         {/* Social Media Icons */}
         <div className="flex mt-4">
           <a
-            href={"https://x.com/RangojuVashista"}
+            href="https://x.com/ankith_singh"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block mx-4 text-[1.5rem]  transition-all duration-200 ease-in-out hover:text-primaryDark"
+            className="inline-block mx-4 text-[1.5rem] transition-all duration-200 ease-in-out hover:text-primaryDark"
           >
             <TwitterIcon />
           </a>
           <a
-            href={"https://www.linkedin.com/in/vashista-rama-krishna/"}
+            href="https://www.linkedin.com/in/ankith-singh17/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block mx-4 text-[1.5rem]  transition-all duration-200 ease-in-out hover:text-primaryDark"
+            className="inline-block mx-4 text-[1.5rem] transition-all duration-200 ease-in-out hover:text-primaryDark"
           >
             <LinkedInIcon />
           </a>
           <a
-            href={"https://www.instagram.com/vashista_raman/"}
+            href="https://www.instagram.com/the_asr2k3/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block mx-4 text-[1.5rem]  transition-all duration-200 ease-in-out hover:text-primaryDark"
+            className="inline-block mx-4 text-[1.5rem] transition-all duration-200 ease-in-out hover:text-primaryDark"
           >
             <InstagramIcon />
           </a>
@@ -80,8 +77,7 @@ function Footer({ theme }) {
 
         {/* Copyright */}
         <p className="mt-6 text-[0.9rem] text-soft2 text-center">
-          &copy; {new Date().getFullYear()} Vashista Rama Krishna Rangoju. All
-          rights reserved.
+          &copy; {new Date().getFullYear()} Ankith Singh. All rights reserved.
         </p>
       </footer>
     </div>
